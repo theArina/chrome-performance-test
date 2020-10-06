@@ -1,0 +1,19 @@
+{
+  "name": "Chrome Test",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Click to test"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ]
+}
